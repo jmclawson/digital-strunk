@@ -5,14 +5,13 @@ body {
        text-align:center;
        color:#000022;
        background-color:#cccccc;
-       /*background-color:#cceeff;*/
        line-height:150%;
        margin: 2.5em 20%;
 }
 .bod {
        border-radius: 15px;
-       text-align:justify;
-       font-family:Hoefler Text,Times;
+       text-align:left;
+       font-family:Georgia,Hoefler Text,Times;
        background-color:#ffffff;
        padding:2em;
 }
@@ -87,4 +86,3 @@ footer:after {
        top: .5em; /* Vertical distance from the last line of text */
        margin-bottom: .5em; /* Extra space at the bottom */
 }
-
