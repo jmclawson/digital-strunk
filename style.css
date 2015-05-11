@@ -73,6 +73,10 @@ ol.strunk{
 	text-align: center;
 }
 
+.newboxes {
+    display: none;
+}
+
 .strunk li:nth-of-type(1):before{
 	content: "1. Form the possessive singular of nouns with 's. ";
 }
