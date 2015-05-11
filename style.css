@@ -81,63 +81,63 @@ ol.strunk{
 	content: "3. Enclose parenthetic expressions between commas. ";
 }
 
-.strunk li:nth-child(4):before{
+.strunk li:nth-of-type(4):before{
 	content: "4. Place a comma before and or but introducing an independent clause. ";
 }
 
-.strunk li:nth-child(5):before{
+.strunk li:nth-of-type(5):before{
 	content: "5. Do not join independent clauses by a comma. ";
 }
 
-.strunk li:nth-child(6):before{
+.strunk li:nth-of-type(6):before{
 	content: "6. Do not break sentences in two. ";
 }
 
-.strunk li:nth-child(7):before{
+.strunk li:nth-of-type(7):before{
 	content: "7. A participial phrase at the beginning of a sentence must refer to the grammatical subject. ";
 }
 
-.strunk li:nth-child(8):before{
+.strunk li:nth-of-type(8):before{
 	content: "8. Divide words at line-ends, in accordance with their formation and pronunciation. ";
 }
 
-.strunk li:nth-child(9):before{
+.strunk li:nth-of-type(9):before{
 	content: "9. Make the paragraph the unit of composition: one paragraph to each topic. ";
 }
 
-.strunk li:nth-child(10):before{
+.strunk li:nth-of-type(10):before{
 	content: "10. As a rule, begin each paragraph with a topic sentence; end it in conformity with the beginning. ";
 }
 
-.strunk li:nth-child(11):before{
+.strunk li:nth-of-type(11):before{
 	content: "11. Use the active voice. ";
 }
 
-.strunk li:nth-child(12):before{
+.strunk li:nth-of-type(12):before{
 	content: "12. Put statements in positive form. ";
 }
 
-.strunk li:nth-child(13):before{
+.strunk li:nth-of-type(13):before{
 	content: "13. Omit needless words. ";
 }
 
-.strunk li:nth-child(14):before{
+.strunk li:nth-of-type(14):before{
 	content: "14. Avoid a succession of loose sentences. ";
 }
 
-.strunk li:nth-child(15):before{
+.strunk li:nth-of-type(15):before{
 	content: "15. Express co-ordinate ideas in similar form. ";
 }
 
-.strunk li:nth-child(16):before{
+.strunk li:nth-of-type(16):before{
 	content: "16. Keep related words together. ";
 }
 
-.strunk li:nth-child(17):before{
+.strunk li:nth-of-type(17):before{
 	content: "17. In summaries, keep to one tense. ";
 }
 
-.strunk li:nth-child(18):before{
+.strunk li:nth-of-type(18):before{
 	content: "18. Place the emphatic words of a sentence at the end. ";
 }
 
