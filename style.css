@@ -101,11 +101,11 @@ ol.strunk{
 	content: "8. Divide words at line-ends, in accordance with their formation and pronunciation. ";
 }
 
-.strunk li:nth-of-type(9):before{
+li:nth-of-type(9):before{
 	content: "9. Make the paragraph the unit of composition: one paragraph to each topic. ";
 }
 
-.strunk li:nth-of-type(10):before{
+li:nth-of-type(10):before{
 	content: "10. As a rule, begin each paragraph with a topic sentence; end it in conformity with the beginning. ";
 }
 
