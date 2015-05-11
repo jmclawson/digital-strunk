@@ -65,80 +65,80 @@ p {
        clear:left;
 }
 
+ol.strunk{
+	list-style-type: none;
+}
+
 .strunk li:nth-of-type(1):before{
-	content: "Form the possessive singular of nouns with 's. ";
+	content: "1. Form the possessive singular of nouns with 's. ";
 }
 
 .strunk li:nth-of-type(2):before{
-	content: "In a series of three or more terms with a single conjunction, use a comma after each term except the last. ";
+	content: "2. In a series of three or more terms with a single conjunction, use a comma after each term except the last. ";
 }
 
 .strunk li:nth-of-type(3):before{
-	content: "Enclose parenthetic expressions between commas. ";
+	content: "3. Enclose parenthetic expressions between commas. ";
 }
 
 .strunk li:nth-child(4):before{
-	content: "Place a comma before and or but introducing an independent clause. ";
+	content: "4. Place a comma before and or but introducing an independent clause. ";
 }
 
 .strunk li:nth-child(5):before{
-	content: "Do not join independent clauses by a comma. ";
+	content: "5. Do not join independent clauses by a comma. ";
 }
 
 .strunk li:nth-child(6):before{
-	content: "Do not break sentences in two. ";
+	content: "6. Do not break sentences in two. ";
 }
 
 .strunk li:nth-child(7):before{
-	content: "A participial phrase at the beginning of a sentence must refer to the grammatical subject. ";
+	content: "7. A participial phrase at the beginning of a sentence must refer to the grammatical subject. ";
 }
 
 .strunk li:nth-child(8):before{
-	content: "Divide words at line-ends, in accordance with their formation and pronunciation. ";
+	content: "8. Divide words at line-ends, in accordance with their formation and pronunciation. ";
 }
 
 .strunk li:nth-child(9):before{
-	content: "Make the paragraph the unit of composition: one paragraph to each topic. ";
+	content: "9. Make the paragraph the unit of composition: one paragraph to each topic. ";
 }
 
 .strunk li:nth-child(10):before{
-	content: "As a rule, begin each paragraph with a topic sentence; end it in conformity with the beginning. ";
+	content: "10. As a rule, begin each paragraph with a topic sentence; end it in conformity with the beginning. ";
 }
 
 .strunk li:nth-child(11):before{
-	content: "Use the active voice. ";
+	content: "11. Use the active voice. ";
 }
 
 .strunk li:nth-child(12):before{
-	content: "Put statements in positive form. ";
+	content: "12. Put statements in positive form. ";
 }
 
 .strunk li:nth-child(13):before{
-	content: "Omit needless words. ";
+	content: "13. Omit needless words. ";
 }
 
 .strunk li:nth-child(14):before{
-	content: "Avoid a succession of loose sentences. ";
+	content: "14. Avoid a succession of loose sentences. ";
 }
 
 .strunk li:nth-child(15):before{
-	content: "Express co-ordinate ideas in similar form. ";
+	content: "15. Express co-ordinate ideas in similar form. ";
 }
 
 .strunk li:nth-child(16):before{
-	content: "Keep related words together. ";
+	content: "16. Keep related words together. ";
 }
 
 .strunk li:nth-child(17):before{
-	content: "In summaries, keep to one tense. ";
+	content: "17. In summaries, keep to one tense. ";
 }
 
 .strunk li:nth-child(18):before{
-	content: "Keep related words together. ";
-}
-
-.strunk li:nth-child(19):before{
-	content: "Place the emphatic words of a sentence at the end. ";
+	content: "18. Place the emphatic words of a sentence at the end. ";
 }
 
 a {
