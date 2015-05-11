@@ -70,12 +70,17 @@ a {
        color:#0088aa;
 }
 
+footer {
+       text-decoration: italic;
+}
+
 footer:after {
-       color: #000022; /* Match the light blue */
-       content: "\2761"; /* Here comes the ivy leaf ... actually yin yang */
+       content: "\2761"; /* Here comes the ivy leaf ... actually pilcrow */
        font-size: 150%; /* Makes the symbol larger than the normal text */
        padding-left: 10px; /* Symbol won't clash with the last letter of the text */
-       float: center; /* Horizontal position is set to the center */
        position: relative; /* This is just an homage to Albert Einstein */
-       top: 1.5em; /*Vertical distance from the last line of text */
+       display: block; /* Gives us a new line to work with */
+       text-align: center; /* Horizontal position is set to the center */
+       top: 1.5em; /* Vertical distance from the last line of text */
+       margin-bottom: .5em; /* Extra space at the bottom */
 }
