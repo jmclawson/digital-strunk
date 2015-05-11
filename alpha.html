@@ -8,6 +8,89 @@
 <div class="bod">
 <h1>Alpha Squadron</h1>
 
+<script type="text/javascript"> 
+function toggle() {
+	var ele = document.getElementById("toggleText");
+	var text = document.getElementById("displayText");
+	if(ele.style.display == "block") {
+    		ele.style.display = "none";
+		text.innerHTML = "show";
+  	}
+	else {
+		ele.style.display = "block";
+		text.innerHTML = "hide";
+	}
+} 
+function toggle2(showHideDiv, switchTextDiv) {
+	var ele = document.getElementById(showHideDiv);
+	var text = document.getElementById(switchTextDiv);
+	if(ele.style.display == "block") {
+    		ele.style.display = "none";
+		text.innerHTML = "restore";
+  	}
+	else {
+		ele.style.display = "block";
+		text.innerHTML = "collapse";
+	}
+} 
+function toggle3(contentDiv, controlDiv) {
+        if (contentDiv.constructor == Array) {
+                for(i=0; i < contentDiv.length; i++) {
+                     toggle2(contentDiv[i], controlDiv[i]);
+                }
+        }
+        else {
+               toggle2(contentDiv, controlDiv);
+        }
+} 
+var counter = 0;
+var numBoxes = 3;
+function toggle4(showHideDiv) {
+	var ele = document.getElementById(showHideDiv + counter);
+	if(ele.style.display == "block") {
+    		ele.style.display = "none";
+  	}
+	else {
+		ele.style.display = "block";
+       }
+       if(counter == numBoxes) {
+                document.getElementById("toggleButton").style.display = "none";
+       }
+} 
+function showonlyone(thechosenone) {
+      var newboxes = document.getElementsByTagName("div");
+            for(var x=0; x<newboxes.length; x++) {
+                  name = newboxes[x].getAttribute('class');
+                  if (name == 'newboxes') {
+                        if (newboxes[x].id == thechosenone) {
+                        newboxes[x].style.display = 'block';
+                  }
+                  else {
+                        newboxes[x].style.display = 'none';
+                  }
+            }
+      }
+}
+function showonlyonev2(thechosenone) {
+      var newboxes = document.getElementsByTagName("div");
+      for(var x=0; x<newboxes.length; x++) {
+            name = newboxes[x].getAttribute('class');
+            if (name == 'newboxes-2') {
+                  if (newboxes[x].id == thechosenone) {
+                        if (newboxes[x].style.display == 'block') {
+                              newboxes[x].style.display = 'none';
+                        }
+                        else {
+                              newboxes[x].style.display = 'block';
+                        }
+                  }else {
+                        newboxes[x].style.display = 'none';
+                  }
+            }
+      }
+}
+</script>
+
 <h2>Rationale</h2>
 <p>Writing rules are set for a global society and are the base for communication. These rules come from Strunk's <i>Elements of Style</i>, which consists of eighteen total rules.</p>
 
