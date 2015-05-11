@@ -113,31 +113,31 @@ ol.strunk{
 	content: "11. Use the active voice. ";
 }
 
-.strunk li:nth-of-type(12):before{
+.strunk+h2+.strunk  li:nth-of-type(4):before{
 	content: "12. Put statements in positive form. ";
 }
 
-.strunk li:nth-of-type(13):before{
+.strunk+h2+.strunk  li:nth-of-type(5):before{
 	content: "13. Omit needless words. ";
 }
 
-.strunk li:nth-of-type(14):before{
+.strunk+h2+.strunk  li:nth-of-type(6):before{
 	content: "14. Avoid a succession of loose sentences. ";
 }
 
-.strunk li:nth-of-type(15):before{
+.strunk+h2+.strunk  li:nth-of-type(7):before{
 	content: "15. Express co-ordinate ideas in similar form. ";
 }
 
-.strunk li:nth-of-type(16):before{
+.strunk+h2+.strunk  li:nth-of-type(8):before{
 	content: "16. Keep related words together. ";
 }
 
-.strunk li:nth-of-type(17):before{
+.strunk+h2+.strunk  li:nth-of-type(9):before{
 	content: "17. In summaries, keep to one tense. ";
 }
 
-.strunk li:nth-of-type(18):before{
+.strunk+h2+.strunk  li:nth-of-type(10):before{
 	content: "18. Place the emphatic words of a sentence at the end. ";
 }
 
