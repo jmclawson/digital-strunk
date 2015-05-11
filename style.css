@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 
 body {
        text-align:center;
@@ -22,10 +22,12 @@ h1 {
        text-align:center;
        margin-top:1em;
        margin-bottom:1em;
+       font-weight: 700;
 }
 
 h2 {
        font-family: 'Open Sans Condensed', Helvetica Neue, Arial, sans-serif;
+       font-weight: 700;
 }
 
 h3 {
@@ -69,7 +71,8 @@ a {
 }
 
 footer {
-       font-family: cursive;
+       font-family: 'Open Sans Condensed', Helvetica Neue, Arial, sans-serif;
+       font-weight: 300;
        text-align: center;
        margin-top: 5em;
 }
