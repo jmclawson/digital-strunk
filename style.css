@@ -20,14 +20,7 @@ h1 {
 }
 
 h2 {
-       font-family:Helvetica Neue,Arial;
-       color:#ffffff;
-       text-transform:uppercase;
-       -webkit-transform:rotate(-90deg);
-       position:relative;
-       left:-58%;
-       letter-spacing:0.2em;
-       text-align:left;
+       font-family:Cursive;;
 }
 
 h3 {
@@ -71,7 +64,8 @@ a {
 }
 
 footer {
-       text-decoration: italic;
+       font-family: cursive;
+       text-align: center;
 }
 
 footer:after {
