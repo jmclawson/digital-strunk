@@ -7,7 +7,7 @@ body {
        margin: 2.5em 20%;
 }
 .bod {
-       border-radius: 20px;
+       border-radius: 15px;
        text-align:justify;
        font-family:Hoefler Text,Times;
        background-color:#ffffff;
@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-       font-family:Cursive;;
+       font-family:Futura Condensed Medium; Cursive;;
 }
 
 h3 {
