@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+
 body {
        text-align:center;
        color:#000022;
@@ -15,14 +18,14 @@ body {
 }
 
 h1 {
-       font-family:Helvetica Neue,Helvetica,Arial;
+       font-family: 'Open Sans', Helvetica Neue, Arial, sans-serif;
        text-align:center;
        margin-top:1em;
        margin-bottom:1em;
 }
 
 h2 {
-       font-family:'Futura-CondensedMedium'; Cursive;;
+       font-family: 'Open Sans Condensed', Helvetica Neue, Arial, sans-serif;
 }
 
 h3 {
@@ -80,3 +83,4 @@ footer:after {
        top: .5em; /* Vertical distance from the last line of text */
        margin-bottom: .5em; /* Extra space at the bottom */
 }
+
