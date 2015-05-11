@@ -74,7 +74,7 @@ footer {
        font-family: 'Open Sans Condensed', Helvetica Neue, Arial, sans-serif;
        font-weight: 300;
        text-align: center;
-       margin-top: 5em;
+       margin-top: .5em;
 }
 
 footer:after {
