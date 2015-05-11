@@ -1,0 +1,31 @@
+body {text-align:center;color:#000022;background-color:#cceeff;line-height:150%;margin: 2.5em 20%;}
+.bod {text-align:justify;font-family:Hoefler Text,Times;background-color:#ffffff;padding:2em;}
+h1 {font-family:Helvetica Neue,Helvetica,Arial;text-align:center;margin-top:1em;margin-bottom:1em;}
+h2 {font-family:Helvetica Neue,Arial;color:#ffffff;text-transform:uppercase;-webkit-transform:rotate(-90deg);position:relative;left:-58%;letter-spacing:0.2em;display:none;}
+h3 {font-family:Helvetica Neue,Helvetica,Arial;color:#0088aa;font-size:x-large;}
+h4 {font-family:Helvetica Neue,Helvetica,Arial;text-align:center;}
+#publications dd {margin-bottom:1.5em;} 
+#publications dt {float:left;} 
+#presentations dd {margin-bottom:1.5em;}
+#presentations dt {float:left;}
+#education dt {float:left;}
+#education dd+dd+dd {margin-bottom:1.5em;}
+dd {margin-left:3em;}
+#projects dd {margin-bottom:1.5em;}
+#teaching dd+dt {margin-top:1.5em;}
+.sc {font-variant:small-caps;}
+.header address {font-style:normal;}
+.header{margin-left:50%; margin-bottom:3em;}
+.highlight{color:#0088aa;}
+p+p {text-indent:2em;}
+p {margin:0; clear:left;}
+a {color:#0088aa;}
+#projects dd:last-child:after {
+       color: #000022; /* Match the light blue */
+       content: "\262F"; /* Here comes the ivy leaf ... actually yin yang */
+       font-size: 150%; /* Makes the symbol larger than the normal text */
+       padding-left: 10px; /* Symbol won't clash with the last letter of the text */
+       float: right; /* Horizontal position is set to the right edge of the column */
+       position: relative; /* This is just an homage to Albert Einstein */
+       top: 1.5em; /*Vertical distance from the last line of text */
+}
