@@ -1,7 +1,7 @@
 body {text-align:center;color:#000022;background-color:#cceeff;line-height:150%;margin: 2.5em 20%;}
 .bod {text-align:justify;font-family:Hoefler Text,Times;background-color:#ffffff;padding:2em;}
 h1 {font-family:Helvetica Neue,Helvetica,Arial;text-align:center;margin-top:1em;margin-bottom:1em;}
-h2 {font-family:Helvetica Neue,Arial;color:#ffffff;text-transform:uppercase;-webkit-transform:rotate(-90deg);position:relative;left:-58%;letter-spacing:0.2em;}
+h2 {font-family:Helvetica Neue,Arial;color:#ffffff;text-transform:uppercase;-webkit-transform:rotate(-90deg);position:relative;left:-58%;letter-spacing:0.2em;text-align:center}
 h3 {font-family:Helvetica Neue,Helvetica,Arial;color:#0088aa;font-size:x-large;}
 h4 {font-family:Helvetica Neue,Helvetica,Arial;text-align:center;}
 #publications dd {margin-bottom:1.5em;} 
