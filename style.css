@@ -71,6 +71,7 @@ a {
 footer {
        font-family: cursive;
        text-align: center;
+       margin-top: 5em;
 }
 
 footer:after {
