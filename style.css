@@ -70,7 +70,7 @@ a {
        color:#0088aa;
 }
 
-#projects dd:last-child:after {
+footer:after {
        color: #000022; /* Match the light blue */
        content: "\2761"; /* Here comes the ivy leaf ... actually yin yang */
        font-size: 150%; /* Makes the symbol larger than the normal text */
