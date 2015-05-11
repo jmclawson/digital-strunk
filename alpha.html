@@ -1,34 +1,12 @@
 <html>
 <head>
   <title>Alpha Squadron - Digital Strunk</title>
-  <script type="text/javascript" src="divhiding.js"></script>
   <LINK href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="bod">
 <h1>Alpha Squadron</h1>
-
-<script type="text/javascript"> 
-function showonlyonev2(thechosenone) {
-      var newboxes = document.getElementsByTagName("div");
-      for(var x=0; x<newboxes.length; x++) {
-            name = newboxes[x].getAttribute('class');
-            if (name == 'newboxes-2') {
-                  if (newboxes[x].id == thechosenone) {
-                        if (newboxes[x].style.display == 'block') {
-                              newboxes[x].style.display = 'none';
-                        }
-                        else {
-                              newboxes[x].style.display = 'block';
-                        }
-                  }else {
-                        newboxes[x].style.display = 'none';
-                  }
-            }
-      }
-}
-</script>
-
+<script type="text/javascript" src="divhiding.js"></script>
 <h2>Rationale</h2>
 <p>Writing rules are set for a global society and are the base for communication. These rules come from Strunk's <i>Elements of Style</i>, which consists of eighteen total rules.</p>
 
