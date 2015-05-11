@@ -65,6 +65,26 @@ p {
        clear:left;
 }
 
+ol.strunk {
+	list-style:none;
+}
+
+.strunk li:before{
+	content: "Rule 1. Form the possessive singular of nouns with 's ";
+}
+
+.strunk li+li:before{
+	content: "Rule 2. In a series of three or more terms with a single conjunction, use a comma after each term except the last ";
+}
+
+.strunk li+li+li:before{
+	content: "Rule 3. Enclose parenthetic expressions between commas ";
+}
+
+.strunk li+li+li+li:before{
+	content: "Rule 4. Place a comma before and or but introducing an independent clause ";
+}
+
 a {
        color:#0088aa;
 }
