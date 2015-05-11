@@ -75,6 +75,6 @@ footer:after {
        position: relative; /* This is just an homage to Albert Einstein */
        display: block; /* Gives us a new line to work with */
        text-align: center; /* Horizontal position is set to the center */
-       top: 1.5em; /* Vertical distance from the last line of text */
+       top: .5em; /* Vertical distance from the last line of text */
        margin-bottom: .5em; /* Extra space at the bottom */
 }
