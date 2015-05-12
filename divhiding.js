@@ -29,7 +29,7 @@ function showonlyoneolder(thechosenone) {
 function showonlyone(thechosenone) {
      $('.newboxes').each(function(index) {
           if ($(this).attr("id") == thechosenone) {
-               if ($(this).style.display == 'block') {
+               if ($(this).css('display') display == 'block') {
                      $(this).hide(600);
                }
                else {
