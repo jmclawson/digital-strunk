@@ -169,7 +169,7 @@ footer p {
 	margin-left: 20%;
 }
 
-footer:after {
+footer:before {
        content: "\2761"; /* Here comes the ivy leaf ... actually pilcrow */
        font-size: 150%; /* Makes the symbol larger than the normal text */
        padding-left: 10px; /* Symbol won't clash with the last letter of the text */
