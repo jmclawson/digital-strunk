@@ -166,6 +166,8 @@ footer {
 
 footer p {
 	width: 60%;
+	display: block;
+	float: center;
 }
 
 footer:after {
