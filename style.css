@@ -69,6 +69,10 @@ ol.strunk{
 	list-style-type: none;
 }
 
+ol.strunk li {
+	margin-bottom: .5em;
+}
+
 .strunk li div{
 	text-align: center;
 }
