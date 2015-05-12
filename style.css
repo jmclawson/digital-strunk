@@ -166,8 +166,7 @@ footer {
 
 footer p {
 	width: 60%;
-	display: block;
-	float: center;
+	margin-left: 20%;
 }
 
 footer:after {
